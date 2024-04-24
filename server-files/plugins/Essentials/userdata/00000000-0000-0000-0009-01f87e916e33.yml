@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.211.144.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1713978986783
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713979070714
+  login: 1713978279559
+  kits:
+    tools: 1713975427724
+money: '0'
+last-account-name: .NoHxeartLxve
+logoutlocation:
+  world: 3143e54e-d459-449c-ba13-4b003d50813c
+  world-name: world
+  x: -1042.2976
+  y: 66.0
+  z: -168.31902
+  yaw: 20.626800537109375
+  pitch: -7.708099365234375
+lastlocation:
+  world: 3143e54e-d459-449c-ba13-4b003d50813c
+  world-name: world
+  x: 28.332848
+  y: 65.0
+  z: 70.30001
+  yaw: 119.60464477539062
+  pitch: -14.41802978515625
+nickname: Abo

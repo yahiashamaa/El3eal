@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713471459395
+  login: 1713464552443
+money: '0'
+last-account-name: goldenboymc8
+lastlocation:
+  world: 46e4ead9-9b92-425d-9cc7-af0495564628
+  world-name: world_nether
+  x: 23.67290899253117
+  y: 17.0
+  z: -86.85896575379579
+  yaw: 168.86471557617188
+  pitch: -2.5500223636627197
+logoutlocation:
+  world: 73dd75d3-5c22-41d7-87df-693bc3447e3a
+  world-name: world
+  x: -3120.8536273461627
+  y: 64.0
+  z: -8176.3348665883095
+  yaw: 62.6458740234375
+  pitch: 11.249446868896484

@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.125.170.152
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1713978557726
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713979315313
+  login: 1713979559759
+  kits:
+    tools: 1713975258988
+money: '0'
+last-account-name: ysh_
+logoutlocation:
+  world: 3143e54e-d459-449c-ba13-4b003d50813c
+  world-name: world
+  x: -745.6999999880791
+  y: 78.0
+  z: -247.3065835506664
+  yaw: 60.072509765625
+  pitch: 34.94999313354492
+lastlocation:
+  world: 3143e54e-d459-449c-ba13-4b003d50813c
+  world-name: world
+  x: 13.219350807614742
+  y: 63.0
+  z: 49.66251476152103
+  yaw: -16.950031280517578
+  pitch: -9.450006484985352
+nickname: SHAMAA

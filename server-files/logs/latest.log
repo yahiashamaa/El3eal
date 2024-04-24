@@ -1,0 +1,917 @@
+[16:01:57] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:01:57] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:01:59] [ServerMain/INFO]: Loaded 1174 recipes
+[16:01:59] [ServerMain/INFO]: Loaded 1271 advancements
+[16:01:59] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[16:01:59] [Server thread/WARN]: ****************************
+[16:01:59] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[16:01:59] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[16:01:59] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[16:01:59] [Server thread/WARN]: ****************************
+[16:01:59] [Server thread/INFO]: Loading properties
+[16:01:59] [Server thread/INFO]: This server is running Paper version git-Paper-318 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 9271ee7)
+[16:02:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:02:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:02:00] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:02:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:02:00] [Server thread/INFO]: Default game type: SURVIVAL
+[16:02:00] [Server thread/INFO]: Generating keypair
+[16:02:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:02:01] [Server thread/INFO]: Using epoll channel type
+[16:02:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:02:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:02:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[16:02:01] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[16:02:01] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:02:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:02:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:02:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:02:02] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[16:02:02] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b96-7f38765)
+[16:02:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:02:03] [Server thread/INFO]: [floodgate] Took 610ms to boot Floodgate
+[16:02:03] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
+[16:02:03] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.3-SNAPSHOT
+[16:02:03] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:02:03] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:02:03] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.10
+[16:02:03] [Server thread/INFO]: [EmptyServerStopper] Loading server plugin EmptyServerStopper v1.1.0
+[16:02:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+78-c60ed56
+[16:02:03] [Server thread/INFO]: [WebConsole] Loading server plugin WebConsole v2.4
+[16:02:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:02:03] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
+[16:02:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:02:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:02:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:02:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:02:03] [Server thread/INFO]: Preparing level "world"
+[16:02:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:02:15] [Server thread/INFO]: Time elapsed: 139 ms
+[16:02:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:02:15] [Server thread/INFO]: Time elapsed: 126 ms
+[16:02:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:02:15] [Server thread/INFO]: Time elapsed: 62 ms
+[16:02:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[16:02:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
+[16:02:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[16:02:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b96-7f38765)
+[16:02:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.3-SNAPSHOT
+[16:02:16] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.10
+[16:02:16] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.2-R0.1
+[16:02:16] [Server thread/INFO]: [voicechat] Compatibility version 18
+[16:02:16] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[16:02:16] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[16:02:16] [Server thread/INFO]: [EmptyServerStopper] Enabling EmptyServerStopper v1.1.0
+[16:02:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+78-c60ed56
+[16:02:16] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:02:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:02:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:02:17] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[16:02:17] [Server thread/INFO]: [Essentials] Using locale en
+[16:02:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:02:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:02:17] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[16:02:17] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[16:02:17] [Server thread/INFO]: [WebConsole] Enabling WebConsole v2.4
+[16:02:17] [WebSocketSelector-76/INFO]: [WebConsole] WebSocket Server started successfully.
+[16:02:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:02:17] [Server thread/INFO]: [Geyser-Spigot] 
+[16:02:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.3-SNAPSHOT (git-master-94f664a)
+[16:02:17] [Server thread/INFO]: [Geyser-Spigot] 
+[16:02:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:02:22] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[16:02:22] [Server thread/INFO]: [Geyser-Spigot] Done (4.537s)! Run /geyser help for help!
+[16:02:22] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.20.80. Download it here: https://geysermc.org/download
+[16:02:22] [Server thread/INFO]: Running delayed init tasks
+[16:02:22] [Server thread/INFO]: Done (23.274s)! For help, type "help"
+[16:02:22] [Server thread/INFO]: Timings Reset
+[16:02:22] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:02:22] [Server thread/INFO]: [voicechat] Loading plugins
+[16:02:22] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:02:22] [Server thread/INFO]: [voicechat] Initializing plugins
+[16:02:22] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:02:22] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[16:02:22] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:02:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[16:02:22] [User Authenticator #0/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:02:22] [Server thread/INFO]: ThatNovaExp (/127.125.170.152:59419) lost connection: Disconnected
+[16:02:57] [Server thread/INFO]: Made ysh_ no longer a server operator
+[16:03:04] [User Authenticator #0/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:03:05] [Server thread/INFO]: ThatNovaExp joined the game
+[16:03:05] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:52541] logged in with entity id 153 at ([world]6.5, 63.0, 19.5)
+[16:03:14] [User Authenticator #0/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[16:03:15] [Server thread/INFO]: ysh_ joined the game
+[16:03:15] [Server thread/INFO]: ysh_[/127.254.183.204:33417] logged in with entity id 426 at ([world]23.5, 68.0, 13.5)
+[16:03:20] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[16:03:20] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:03:20] [Server thread/INFO]: ThatNovaExp left the game
+[16:03:24] [User Authenticator #0/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:03:24] [Server thread/INFO]: ThatNovaExp joined the game
+[16:03:24] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:38079] logged in with entity id 606 at ([world]6.086269346364798, 63.0, 16.468135915165227)
+[16:03:34] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:03:34] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:03:34] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[16:03:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[16:03:34] [Server thread/INFO]: .NoHxeartLxve joined the game
+[16:03:34] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 653 at ([world]23.5, 63.0, 17.5)
+[16:03:57] [Server thread/INFO]: ysh_ issued server command: /time set night
+[16:06:40] [Server thread/INFO]: ysh_ has made the advancement [Stone Age]
+[16:06:41] [Server thread/INFO]: ThatNovaExp issued server command: /tpask ysh_
+[16:06:44] [Server thread/INFO]: ysh_ issued server command: /tpaccept
+[16:07:04] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[16:07:04] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:07:04] [Server thread/INFO]: ThatNovaExp left the game
+[16:07:23] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Stone Age]
+[16:07:44] [User Authenticator #1/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:07:45] [Server thread/INFO]: ThatNovaExp joined the game
+[16:07:45] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:49909] logged in with entity id 1650 at ([world]76.99390680573613, 86.0, 152.7211713860395)
+[16:08:51] [Server thread/INFO]: ysh_ issued server command: /tpa ThatNovaExp
+[16:09:08] [Server thread/INFO]: ThatNovaExp issued server command: /tpa
+[16:09:11] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Getting an Upgrade]
+[16:09:21] [Server thread/INFO]: ThatNovaExp issued server command: /tpa ysh_
+[16:09:28] [Server thread/INFO]: ysh_ issued server command: /tpdeny
+[16:09:32] [Server thread/INFO]: ysh_ issued server command: /tpa ThatNovaExp
+[16:09:52] [Server thread/INFO]: ThatNovaExp has made the advancement [Stone Age]
+[16:10:10] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[16:10:19] [Server thread/INFO]: ThatNovaExp has made the advancement [Getting an Upgrade]
+[16:10:58] [Server thread/INFO]: ysh_ has made the advancement [Getting an Upgrade]
+[16:11:29] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:12:29] [Server thread/INFO]: ysh_ issued server command: /bal
+[16:12:43] [Server thread/INFO]: ThatNovaExp was blown up by Creeper
+[16:12:46] [Server thread/INFO]: ysh_ issued server command: /suicide
+[16:12:46] [Server thread/INFO]: ysh_ died
+[16:13:29] [Server thread/INFO]: ysh_ was slain by Zombie
+[16:13:32] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:14:13] [Server thread/INFO]: ysh_ issued server command: /kit
+[16:14:16] [Server thread/INFO]: ThatNovaExp issued server command: /kit
+[16:14:18] [Server thread/INFO]: ysh_ issued server command: /kit tools
+[16:14:22] [Server thread/INFO]: ThatNovaExp issued server command: /kits
+[16:14:32] [Server thread/INFO]: ThatNovaExp issued server command: /kits tools
+[16:14:44] [Server thread/INFO]: .NoHxeartLxve issued server command: /ekits
+[16:15:01] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[16:15:01] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[16:15:01] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[16:15:01] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[16:15:01] [Server thread/INFO]: .NoHxeartLxve left the game
+[16:15:07] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[16:15:07] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:15:07] [Server thread/INFO]: ThatNovaExp left the game
+[16:15:32] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:15:32] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:15:32] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[16:15:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[16:15:33] [Server thread/INFO]: .NoHxeartLxve joined the game
+[16:15:33] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 5548 at ([world]175.69104, 70.0, 71.16295)
+[16:15:48] [User Authenticator #2/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:15:48] [Server thread/INFO]: ThatNovaExp joined the game
+[16:15:48] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:53649] logged in with entity id 5609 at ([world]-612.1673744848985, 115.75409402422542, 63.71142983529831)
+[16:16:00] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:16:17] [Server thread/INFO]: ThatNovaExp was slain by Zombie
+[16:16:23] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Acquire Hardware]
+[16:16:34] [Server thread/WARN]: ThatNovaExp was kicked due to keepalive timeout!
+[16:16:34] [Server thread/INFO]: ThatNovaExp lost connection: Timed out
+[16:16:34] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:16:34] [Server thread/INFO]: ThatNovaExp left the game
+[16:16:44] [User Authenticator #2/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:16:44] [Server thread/INFO]: ThatNovaExp joined the game
+[16:16:44] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:44471] logged in with entity id 6245 at ([world]-577.7739823702207, 84.0, 27.981319628405856)
+[16:16:47] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Isn't It Iron Pick]
+[16:17:07] [Server thread/INFO]: .NoHxeartLxve issued server command: /ekits tools
+[16:17:13] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:17:22] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:17:25] [Server thread/INFO]: ysh_ has made the advancement [Acquire Hardware]
+[16:17:27] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:18:41] [Server thread/INFO]: ysh_ was slain by Cave Spider
+[16:18:45] [Server thread/INFO]: ysh_ issued server command: /back
+[16:18:51] [Server thread/INFO]: ThatNovaExp issued server command: /back
+[16:19:15] [Server thread/INFO]: ThatNovaExp issued server command: /back
+[16:20:09] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:20:10] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:20:11] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:20:11] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:20:59] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:21:11] [Server thread/INFO]: ThatNovaExp has made the advancement [Acquire Hardware]
+[16:21:19] [Server thread/INFO]: ysh_ has made the advancement [Monster Hunter]
+[16:21:41] [Server thread/INFO]: ThatNovaExp has made the advancement [Isn't It Iron Pick]
+[16:21:53] [Server thread/INFO]: ThatNovaExp has made the advancement [Suit Up]
+[16:22:19] [Server thread/INFO]: ysh_ has made the advancement [Isn't It Iron Pick]
+[16:23:23] [Server thread/WARN]: .NoHxeartLxve moved wrongly!
+[16:23:37] [Server thread/INFO]: ThatNovaExp has made the advancement [Diamonds!]
+[16:24:17] [Server thread/WARN]: .NoHxeartLxve moved wrongly!
+[16:24:30] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:24:33] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:24:44] [Server thread/INFO]: ThatNovaExp has made the advancement [Monster Hunter]
+[16:24:52] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:24:52] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:24:53] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:25:02] [Server thread/INFO]: ThatNovaExp issued server command: /tpask ysh_
+[16:25:09] [Server thread/INFO]: ThatNovaExp issued server command: /tpa .NoHxeartLxve
+[16:25:16] [Server thread/INFO]: ThatNovaExp issued server command: /tpad
+[16:25:22] [Server thread/INFO]: ThatNovaExp issued server command: /tpask ysh_
+[16:25:27] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:25:35] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[16:25:35] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[16:25:35] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[16:25:35] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[16:25:35] [Server thread/INFO]: .NoHxeartLxve left the game
+[16:25:58] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:25:58] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:25:58] [User Authenticator #3/INFO]: UUID of player NoHxeartLxve is 21c1a2a3-69a0-397c-a1dc-ff195f7b7c0b
+[16:25:58] [Server thread/INFO]: NoHxeartLxve joined the game
+[16:25:58] [Server thread/INFO]: NoHxeartLxve[/127.211.144.130:0] logged in with entity id 9477 at ([world]14.5, 63.0, 16.5)
+[16:26:49] [Server thread/INFO]: ysh_ issued server command: /online
+[16:27:23] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:27:26] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:27:42] [Server thread/INFO]: ThatNovaExp issued server command: /back
+[16:27:48] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:27:50] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:28:04] [Server thread/INFO]: ThatNovaExp issued server command: /day
+[16:28:15] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[16:28:15] [Server thread/INFO]: NoHxeartLxve lost connection: Disconnected
+[16:28:15] [Server thread/INFO]: [voicechat] Disconnecting client NoHxeartLxve
+[16:28:15] [Server thread/INFO]: NoHxeartLxve left the game
+[16:28:19] [Server thread/INFO]: ThatNovaExp issued server command: /durability diamond_pickaxe
+[16:28:19] [Server thread/INFO]: ysh_ was shot by Skeleton
+[16:28:28] [Server thread/INFO]: ysh_ issued server command: /back
+[16:28:30] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:28:30] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:28:30] [Geyser Spigot connection thread-6-2/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[16:28:30] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[16:28:30] [Server thread/INFO]: .NoHxeartLxve joined the game
+[16:28:30] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 11252 at ([world]170.52415, 70.0, 88.750404)
+[16:28:36] [Server thread/INFO]: ThatNovaExp issued server command: /durability 10record
+[16:28:49] [Server thread/INFO]: ThatNovaExp issued server command: /alts ThatNovaExp
+[16:28:52] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Suit Up]
+[16:28:58] [Server thread/INFO]: ysh_ issued server command: /online
+[16:29:01] [Server thread/INFO]: ysh_ issued server command: /alts
+[16:29:05] [Server thread/INFO]: ysh_ issued server command: /alts ysh_
+[16:29:19] [Server thread/INFO]: ThatNovaExp issued server command: /ebalance ysh_
+[16:29:36] [Server thread/INFO]: ThatNovaExp issued server command: /ebal ysh_
+[16:29:37] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[16:29:37] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[16:29:37] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[16:29:37] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[16:29:37] [Server thread/INFO]: .NoHxeartLxve left the game
+[16:29:39] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:29:41] [Server thread/INFO]: Made ysh_ a server operator
+[16:29:41] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:29:49] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:29:49] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:29:49] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[16:29:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[16:29:49] [Server thread/INFO]: .NoHxeartLxve joined the game
+[16:29:49] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 11724 at ([world]169.50574, 70.0, 91.624725)
+[16:29:58] [Server thread/INFO]: ThatNovaExp issued server command: /floodgate
+[16:30:00] [Server thread/INFO]: ysh_ issued server command: /invsee ThatNovaExp
+[16:30:16] [Server thread/INFO]: ysh_ issued server command: /deop ysh_
+[16:30:16] [Server thread/INFO]: [ysh_: Made ysh_ no longer a server operator]
+[16:30:21] [Server thread/INFO]: ysh_ was slain by Zombie
+[16:30:25] [Server thread/INFO]: ysh_ issued server command: /alts ysh_
+[16:30:25] [Server thread/INFO]: ThatNovaExp issued server command: /suicide
+[16:30:25] [Server thread/INFO]: ThatNovaExp died
+[16:30:32] [Server thread/INFO]: ysh_ issued server command: /back
+[16:30:36] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:30:38] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:30:41] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:30:44] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:30:59] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:01] [Server thread/INFO]: .NoHxeartLxve issued server command: /away
+[16:32:20] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:28] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:30] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:30] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:33] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:35] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:48] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:32:55] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:33:52] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:33:53] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:33:54] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:35:10] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:35:13] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:35:33] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:36:37] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:36:37] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:36:45] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:36:57] [Server thread/INFO]: ysh_ issued server command: /balancetop 1
+[16:36:57] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:37:02] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:37:04] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:37:09] [Server thread/INFO]: ThatNovaExp issued server command: /afk
+[16:37:14] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:37:15] [Server thread/INFO]: ysh_ issued server command: /suicide
+[16:37:15] [Server thread/INFO]: ysh_ died
+[16:37:18] [Server thread/INFO]: ThatNovaExp was shot by Skeleton
+[16:37:25] [Server thread/INFO]: .NoHxeartLxve issued server command: /afk
+[16:41:29] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Diamonds!]
+[16:41:49] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Cover Me with Diamonds]
+[16:42:05] [Server thread/INFO]: Made ysh_\ a server operator
+[16:42:08] [Server thread/INFO]: Made ysh_ a server operator
+[16:42:15] [Server thread/INFO]: ThatNovaExp issued server command: /icanhasbukkit ThatNovaExp
+[16:42:24] [Server thread/INFO]: ysh_ issued server command: /invsee .NoHxeartLxve
+[16:42:27] [Server thread/INFO]: ThatNovaExp issued server command: /plugins
+[16:42:36] [Server thread/INFO]: ysh_ issued server command: /plugins
+[16:42:45] [Server thread/INFO]: ThatNovaExp issued server command: /dura acaciastairs
+[16:42:53] [Server thread/INFO]: ysh_ issued server command: /deop ysh_
+[16:42:53] [Server thread/INFO]: [ysh_: Made ysh_ no longer a server operator]
+[16:42:54] [Server thread/INFO]: ThatNovaExp issued server command: /version
+[16:43:12] [Server thread/INFO]: ysh_ issued server command: /voicechat join
+[16:43:27] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:43:28] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:43:44] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:43:52] [Server thread/INFO]: ThatNovaExp issued server command: /seen ThatNovaExp
+[16:43:55] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:43:55] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:44:00] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:44:00] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:44:02] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:44:03] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:44:15] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-318 (MC: 1.20.2) ---
+[16:44:15] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[16:44:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:15] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:44:15] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[16:44:15] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[16:44:15] [Paper Watchdog Thread/ERROR]: Entity UUID: 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:44:15] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-538.2775134920425, 68.0, 880.8384777172479)
+[16:44:15] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[16:44:15] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-538.5775135039635, 68.0, 880.538477705327] -> [-537.9775134801216, 69.79999995231628, 881.1384777291688]
+[16:44:15] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 113997
+[16:44:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:15] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:44:15] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+[16:44:15] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.create(CubicSpline.java:194)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1053)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:17)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:122)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:717)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x00007f6db1b08000.get(Unknown Source)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:305)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:275)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2074)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:87)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:34)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:26)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.compose(LootItemFunctions.java:69)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda/0x00007f6db0a20000.apply(Unknown Source)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda/0x00007f6db1911ae8.accept(Unknown Source)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:36)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:30)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:80)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:102)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:105)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:124)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:139)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:168)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:162)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1562)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1225)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:583)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1908)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:53)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda/0x00007f6db18c2998.run(Unknown Source)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1324)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1301)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1294)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1272)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1160)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f6db0a68620.run(Unknown Source)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[16:44:15] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[16:44:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:15] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:44:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:20] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-318 (MC: 1.20.2) ---
+[16:44:20] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[16:44:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:20] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[16:44:20] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[16:44:20] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[16:44:20] [Paper Watchdog Thread/ERROR]: Entity UUID: 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:44:20] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-538.2775134920425, 68.0, 880.8384777172479)
+[16:44:20] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[16:44:20] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-538.5775135039635, 68.0, 880.538477705327] -> [-537.9775134801216, 69.79999995231628, 881.1384777291688]
+[16:44:20] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 113997
+[16:44:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:20] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[16:44:20] [Paper Watchdog Thread/ERROR]: 	PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+[16:44:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:261)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:261)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.computePreliminarySurfaceLevel(NoiseChunk.java:180)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda/0x00007f6db1038878.get(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2IntOpenHashMap.computeIfAbsent(Long2IntOpenHashMap.java:495)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.preliminarySurfaceLevel(NoiseChunk.java:171)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.computeFluid(Aquifer.java:340)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.getAquiferStatus(Aquifer.java:324)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.computeSubstance(Aquifer.java:199)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.lambda$new$0(NoiseChunk.java:133)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda/0x00007f6db10359e8.calculate(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.material.MaterialRuleList.calculate(MaterialRuleList.java:14)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.getInterpolatedState(NoiseChunk.java:150)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:186)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:717)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x00007f6db1b08000.get(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:305)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:275)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2074)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:87)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:34)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:26)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.compose(LootItemFunctions.java:69)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda/0x00007f6db0a20000.apply(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda/0x00007f6db1911ae8.accept(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:36)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:30)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:80)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:102)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:105)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:124)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:139)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:168)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:162)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1562)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1225)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:583)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1908)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:53)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda/0x00007f6db18c2998.run(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1324)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1301)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1294)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1272)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1160)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007f6db0a68620.run(Unknown Source)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.runWith(Thread.java:1596)
+[16:44:20] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.2/java.lang.Thread.run(Thread.java:1583)
+[16:44:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:20] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[16:44:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18356ms or 367 ticks behind
+[16:44:24] [Server thread/WARN]: ysh_ moved too quickly! 4.089720631312616,6.024424088213692,-8.847321108653091
+[16:45:45] [Server thread/INFO]: .NoHxeartLxve has made the advancement [Monster Hunter]
+[16:46:00] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:02] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:03] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:03] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:04] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:04] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:46:43] [Server thread/INFO]: ThatNovaExp drowned
+[16:46:48] [Server thread/INFO]: ThatNovaExp issued server command: /back
+[16:47:11] [Server thread/INFO]: ysh_ issued server command: /echo
+[16:47:18] [Server thread/INFO]: ysh_ issued server command: /echo ga3ser
+[16:47:22] [Server thread/INFO]: ThatNovaExp issued server command: /echo ThatNovaExp
+[16:47:27] [Server thread/INFO]: ThatNovaExp issued server command: /echo ysh_
+[16:48:23] [Server thread/WARN]: ThatNovaExp moved wrongly!
+[16:48:30] [Server thread/INFO]: ThatNovaExp issued server command: /ende
+[16:48:44] [Server thread/INFO]: .NoHxeartLxve issued server command: /invsee
+[16:48:44] [Server thread/INFO]: [Essentials] .NoHxeartLxve was denied access to command.
+[16:51:13] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[16:51:13] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:51:13] [Server thread/INFO]: ThatNovaExp left the game
+[16:51:15] [User Authenticator #4/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:51:15] [Server thread/INFO]: ThatNovaExp joined the game
+[16:51:15] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:46107] logged in with entity id 27626 at ([world]-1561.2864659516033, 63.46793484851182, 1208.00673744579)
+[16:51:34] [Server thread/INFO]: ThatNovaExp issued server command: /tpask ysh_
+[16:51:38] [Server thread/INFO]: ysh_ issued server command: /tpaccept
+[16:51:51] [Server thread/INFO]: .NoHxeartLxve issued server command: /etpask ThatNovaExp
+[16:52:24] [Server thread/INFO]: .NoHxeartLxve issued server command: /tpask ysh_
+[16:52:27] [Server thread/INFO]: ysh_ issued server command: /tpaccept
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:52:27] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -810.19396,132.0,-159.93081999999998
+[16:53:46] [Server thread/INFO]: Nothing changed. The player is not an operator
+[16:54:20] [Server thread/WARN]: ThatNovaExp was kicked for floating too long!
+[16:54:20] [Server thread/INFO]: ThatNovaExp lost connection: Flying is not enabled on this server
+[16:54:20] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:54:20] [Server thread/INFO]: ThatNovaExp left the game
+[16:54:21] [User Authenticator #5/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:54:22] [Server thread/INFO]: ThatNovaExp joined the game
+[16:54:22] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:53299] logged in with entity id 28615 at ([world]-800.3000000119209, 71.51979120851333, 137.85608948574338)
+[16:54:54] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[16:54:54] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[16:54:54] [Server thread/INFO]: ThatNovaExp left the game
+[16:55:04] [User Authenticator #5/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[16:55:05] [Server thread/INFO]: ThatNovaExp joined the game
+[16:55:05] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:42705] logged in with entity id 28750 at ([world]-795.9064414791611, 72.0, 138.38702472865836)
+[16:56:15] [Server thread/INFO]: ThatNovaExp was slain by Spider
+[16:57:08] [Server thread/INFO]: .NoHxeartLxve issued server command: /floodgate:linkaccount -
+[16:57:25] [Server thread/INFO]: ysh_ has made the advancement [Not Today, Thank You]
+[16:57:39] [Server thread/INFO]: .NoHxeartLxve issued server command: /nickname Abo Shamaa
+[16:57:44] [Server thread/INFO]: ysh_ was blown up by Creeper
+[16:57:52] [Server thread/INFO]: ysh_ issued server command: /back
+[16:58:04] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[16:58:04] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[16:58:04] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[16:58:04] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[16:58:04] [Server thread/INFO]: .NoHxeartLxve left the game
+[16:58:41] [Server thread/INFO]: ThatNovaExp was slain by Zombie
+[16:58:47] [Server thread/INFO]: ThatNovaExp issued server command: /back
+[16:59:32] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[16:59:32] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[16:59:32] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[16:59:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[16:59:32] [Server thread/INFO]: .NoHxeartLxve joined the game
+[16:59:32] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 30727 at ([world]-808.70593, 71.0, 125.30641)
+[16:59:40] [Server thread/INFO]: ysh_ was killed by Witch using magic
+[16:59:47] [Server thread/INFO]: ysh_ issued server command: /back
+[17:01:06] [Server thread/INFO]: ysh_ issued server command: /online ysh_
+[17:01:11] [Server thread/INFO]: ysh_ issued server command: /online
+[17:01:17] [Server thread/INFO]: ysh_ issued server command: /alts ysh_
+[17:01:26] [Server thread/INFO]: .NoHxeartLxve issued server command: /einfo
+[17:02:14] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[17:02:14] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[17:02:14] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[17:02:14] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[17:02:14] [Server thread/INFO]: .NoHxeartLxve left the game
+[17:02:17] [Server thread/INFO]: ysh_ was slain by Zombie
+[17:02:21] [Server thread/INFO]: ysh_ issued server command: /back
+[17:02:22] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[17:02:22] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[17:02:22] [Server thread/INFO]: ThatNovaExp left the game
+[17:02:45] [Server thread/INFO]: The difficulty has been set to Peaceful
+[17:04:39] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] NoHxeartLxve (logged in as: NoHxeartLxve) has connected to the Java server
+[17:04:39] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username NoHxeartLxve
+[17:04:39] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .NoHxeartLxve is 00000000-0000-0000-0009-01f87e916e33
+[17:04:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve joined (UUID: 00000000-0000-0000-0009-01f87e916e33)
+[17:04:39] [Server thread/INFO]: .NoHxeartLxve joined the game
+[17:04:39] [Server thread/INFO]: .NoHxeartLxve[/127.211.144.130:0] logged in with entity id 32621 at ([world]-810.411, 71.0, 136.35904)
+[17:05:11] [Server thread/INFO]: .NoHxeartLxve issued server command: /tpa SHAMAA
+[17:05:19] [Server thread/INFO]: ysh_ issued server command: /tpaccept
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:05:19] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -147.08900000000006,12.0,-244.85904
+[17:06:06] [User Authenticator #6/INFO]: UUID of player ThatNovaExp is 2652ee91-5f88-333c-83e6-80b1e0d284b6
+[17:06:07] [Server thread/INFO]: ThatNovaExp joined the game
+[17:06:07] [Server thread/INFO]: ThatNovaExp[/127.125.170.152:33355] logged in with entity id 33055 at ([world]-22.607098506976246, 63.0, 36.898224128622836)
+[17:06:58] [Server thread/INFO]: ysh_ was slain by .NoHxeartLxve
+[17:07:04] [Server thread/INFO]: ysh_ issued server command: /back
+[17:07:36] [Server thread/INFO]: ThatNovaExp issued server command: /suicide
+[17:07:36] [Server thread/INFO]: ThatNovaExp died
+[17:08:30] [Server thread/INFO]: ThatNovaExp has made the advancement [Cover Me with Diamonds]
+[17:09:02] [Server thread/INFO]: ysh_ issued server command: /suicide
+[17:09:02] [Server thread/INFO]: ysh_ died
+[17:09:13] [Server thread/INFO]: ThatNovaExp issued server command: /suicide
+[17:09:13] [Server thread/INFO]: ThatNovaExp died
+[17:09:17] [Server thread/INFO]: ysh_ issued server command: /back
+[17:09:26] [Server thread/INFO]: .NoHxeartLxve issued server command: /tpa ThatNovaExp
+[17:09:38] [Server thread/INFO]: ThatNovaExp issued server command: /tpaccept
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:09:38] [Server thread/WARN]: .NoHxeartLxve moved too quickly! 826.42847,0.0,0.04130999999999574
+[17:10:00] [Server thread/INFO]: ysh_ has made the advancement [Suit Up]
+[17:11:50] [Server thread/INFO]: ThatNovaExp issued server command: /tpask ysh_
+[17:13:03] [Async Chat Thread - #1/INFO]: [Not Secure] <~Abo> .locate ysh_
+[17:13:25] [Server thread/INFO]: ysh_ has made the advancement [Diamonds!]
+[17:13:44] [Server thread/INFO]: ysh_ has made the advancement [Sweet Dreams]
+[17:14:47] [Server thread/WARN]: .NoHxeartLxve moved wrongly!
+[17:15:56] [Server thread/INFO]: .NoHxeartLxve issued server command: /tpa SHAMAA
+[17:16:06] [Server thread/INFO]: ysh_ issued server command: /tpdeny
+[17:16:23] [Server thread/INFO]: .NoHxeartLxve issued server command: /tpa SHAMAA
+[17:16:26] [Server thread/INFO]: ysh_ issued server command: /tpaccept
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:16:26] [Server thread/WARN]: .NoHxeartLxve moved too quickly! -1176.86472,23.0,-107.80001
+[17:17:50] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] NoHxeartLxve has disconnected from the Java server because of Bedrock client disconnected
+[17:17:50] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .NoHxeartLxve disconnected
+[17:17:50] [Server thread/INFO]: .NoHxeartLxve lost connection: Disconnected
+[17:17:50] [Server thread/INFO]: [voicechat] Disconnecting client .NoHxeartLxve
+[17:17:50] [Server thread/INFO]: .NoHxeartLxve left the game
+[17:18:47] [Server thread/INFO]: ThatNovaExp lost connection: Disconnected
+[17:18:47] [Server thread/INFO]: [voicechat] Disconnecting client ThatNovaExp
+[17:18:47] [Server thread/INFO]: ThatNovaExp left the game
+[17:18:59] [User Authenticator #7/INFO]: UUID of player sharmoot is 9d5ef675-7a64-3853-95ae-4b43ea67920d
+[17:19:00] [Server thread/INFO]: sharmoot joined the game
+[17:19:00] [Server thread/INFO]: sharmoot[/127.125.170.152:41907] logged in with entity id 34874 at ([world]9.5, 63.0, 10.5)
+[17:19:19] [Server thread/INFO]: sharmoot lost connection: Disconnected
+[17:19:19] [Server thread/INFO]: [voicechat] Disconnecting client sharmoot
+[17:19:19] [Server thread/INFO]: sharmoot left the game
+[17:19:31] [User Authenticator #7/INFO]: UUID of player kosomk is 79b58b14-6e1b-3a83-9f7e-80ac25d76845
+[17:19:32] [Server thread/INFO]: kosomk joined the game
+[17:19:32] [Server thread/INFO]: kosomk[/127.125.170.152:43377] logged in with entity id 34927 at ([world]26.5, 63.0, 23.5)
+[17:19:46] [Server thread/INFO]: kosomk lost connection: Disconnected
+[17:19:46] [Server thread/INFO]: [voicechat] Disconnecting client kosomk
+[17:19:46] [Server thread/INFO]: kosomk left the game
+[17:19:59] [User Authenticator #7/INFO]: UUID of player abdo is b1c70758-1a07-3c72-b4e7-d055a8958665
+[17:20:00] [Server thread/INFO]: abdo joined the game
+[17:20:00] [Server thread/INFO]: abdo[/127.125.170.152:60721] logged in with entity id 34982 at ([world]9.5, 63.0, 12.5)
+[17:20:14] [Server thread/INFO]: abdo lost connection: Disconnected
+[17:20:14] [Server thread/INFO]: [voicechat] Disconnecting client abdo
+[17:20:14] [Server thread/INFO]: abdo left the game
+[17:20:25] [User Authenticator #7/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:20:25] [Server thread/INFO]: ysh_ lost connection: You logged in from another location
+[17:20:25] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:20:25] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:20:25] [Server thread/INFO]: ysh_ left the game
+[17:20:25] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [101]
+[17:20:25] [Server thread/INFO]: ysh_ joined the game
+[17:20:25] [Server thread/INFO]: ysh_[/127.125.170.152:36497] logged in with entity id 35055 at ([world]-806.6730300795705, 78.0, -254.21725983218025)
+[17:20:36] [User Authenticator #7/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:20:36] [Server thread/INFO]: ysh_ lost connection: You logged in from another location
+[17:20:36] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:20:36] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:20:36] [Server thread/INFO]: ysh_ left the game
+[17:20:36] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [106]
+[17:20:36] [Server thread/INFO]: ysh_ joined the game
+[17:20:36] [Server thread/INFO]: ysh_[/127.254.183.204:39491] logged in with entity id 35166 at ([world]-788.5334002813735, 69.7531999805212, -262.53352845681655)
+[17:20:37] [User Authenticator #7/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:20:37] [Server thread/INFO]: ysh_ lost connection: You logged in from another location
+[17:20:37] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:20:37] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:20:37] [Server thread/INFO]: ysh_ left the game
+[17:20:37] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [111]
+[17:20:38] [Server thread/INFO]: ysh_ joined the game
+[17:20:38] [Server thread/INFO]: ysh_[/127.125.170.152:44549] logged in with entity id 35217 at ([world]-788.5334002813735, 69.0, -262.53352845681655)
+[17:20:55] [User Authenticator #7/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:20:55] [Server thread/INFO]: ysh_ lost connection: You logged in from another location
+[17:20:55] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:20:55] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:20:55] [Server thread/INFO]: ysh_ left the game
+[17:20:55] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [116]
+[17:20:55] [Server thread/INFO]: ysh_ joined the game
+[17:20:55] [Server thread/INFO]: ysh_[/127.254.183.204:49877] logged in with entity id 35343 at ([world]-767.2171129933157, 71.0, -235.95289183850483)
+[17:21:47] [User Authenticator #7/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:21:47] [Server thread/INFO]: ysh_ lost connection: You logged in from another location
+[17:21:47] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:21:47] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:21:47] [Server thread/INFO]: ysh_ left the game
+[17:21:47] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [121]
+[17:21:48] [Server thread/INFO]: ysh_ joined the game
+[17:21:48] [Server thread/INFO]: ysh_[/127.125.170.152:47321] logged in with entity id 35487 at ([world]-745.6999999880791, 78.0, -247.3065835506664)
+[17:21:55] [Server thread/INFO]: ysh_ lost connection: Disconnected
+[17:21:55] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:21:55] [Server thread/INFO]: [voicechat] Disconnecting client ysh_
+[17:21:55] [Server thread/INFO]: ysh_ left the game
+[17:22:51] [User Authenticator #8/INFO]: UUID of player g is c156c721-3c99-337b-bf33-16cf52283a03
+[17:22:51] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [126]
+[17:22:52] [Server thread/INFO]: g joined the game
+[17:22:52] [Server thread/INFO]: g[/127.125.170.152:49899] logged in with entity id 35592 at ([world]17.5, 64.0, 12.5)
+[17:23:00] [Async Chat Thread - #2/INFO]: [Not Secure] <g> g
+[17:23:04] [Async Chat Thread - #2/INFO]: [Not Secure] <g> hiiiiii
+[17:23:06] [Server thread/INFO]: g lost connection: Disconnected
+[17:23:06] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:23:06] [Server thread/INFO]: [voicechat] Disconnecting client g
+[17:23:06] [Server thread/INFO]: g left the game
+[17:23:18] [User Authenticator #8/INFO]: UUID of player Badbitch is 5b32d712-44d3-31c0-b63f-2095a965fb4a
+[17:23:18] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [133]
+[17:23:18] [Server thread/INFO]: Badbitch joined the game
+[17:23:18] [Server thread/INFO]: Badbitch[/127.125.170.152:38271] logged in with entity id 35626 at ([world]7.5, 63.0, 23.5)
+[17:23:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Badbitch> hiiiiii
+[17:23:31] [Server thread/INFO]: Badbitch lost connection: Disconnected
+[17:23:31] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:23:31] [Server thread/INFO]: [voicechat] Disconnecting client Badbitch
+[17:23:31] [Server thread/INFO]: Badbitch left the game
+[17:24:18] [User Authenticator #9/INFO]: UUID of player NoHxert is 8986d914-3e00-3782-920d-531433d2c396
+[17:24:19] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [139]
+[17:24:19] [Server thread/INFO]: NoHxert joined the game
+[17:24:19] [Server thread/INFO]: NoHxert[/127.125.170.152:33019] logged in with entity id 35644 at ([world]20.5, 64.0, 9.5)
+[17:24:22] [Server thread/INFO]: NoHxert lost connection: Disconnected
+[17:24:22] [Server thread/INFO]: [EmptyServerStopper] Server empty -> shutdown in 60 minute(s).
+[17:24:22] [Server thread/INFO]: [voicechat] Disconnecting client NoHxert
+[17:24:22] [Server thread/INFO]: NoHxert left the game
+[17:25:59] [User Authenticator #10/INFO]: UUID of player ysh_ is cfc069ef-aa10-3fc1-83c0-a25f280e38f2
+[17:25:59] [Server thread/INFO]: [EmptyServerStopper] Shutdown canceled. [144]
+[17:25:59] [Server thread/INFO]: ysh_ joined the game
+[17:25:59] [Server thread/INFO]: ysh_[/127.125.170.152:48429] logged in with entity id 35660 at ([world]-745.6999999880791, 78.0, -247.3065835506664)

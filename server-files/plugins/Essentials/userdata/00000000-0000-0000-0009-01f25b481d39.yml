@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.254.183.204
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1713573043988
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713652627353
+  login: 1713652474168
+money: '0'
+last-account-name: .ThatNovaExp
+lastlocation:
+  world: 73dd75d3-5c22-41d7-87df-693bc3447e3a
+  world-name: world
+  x: 16.988611
+  y: 64.0
+  z: -146.30001
+  yaw: -57.12641143798828
+  pitch: 5.9933624267578125
+logoutlocation:
+  world: 73dd75d3-5c22-41d7-87df-693bc3447e3a
+  world-name: world
+  x: -158.44131
+  y: 67.0
+  z: -82.082306
+  yaw: 40.01841735839844
+  pitch: 8.16522216796875

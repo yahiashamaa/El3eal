@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713484576561
+  login: 1713484454607
+money: '0'
+last-account-name: YehiaELMecanic
+logoutlocation:
+  world: 73dd75d3-5c22-41d7-87df-693bc3447e3a
+  world-name: world
+  x: 6.44393047234824
+  y: 65.0
+  z: -126.66072213359821
+  yaw: 128.84902954101562
+  pitch: 35.85000991821289
